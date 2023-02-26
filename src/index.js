@@ -1,15 +1,16 @@
-const express = require('express')
-const app = express()
-const port = 3001
+const express = require('express');
+
+const app = express();
+const port = 3001;
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+  res.send('Hello World!');
 });
 
 app.get('/api', (req, res) => {
-    res.json({ success: true });
+  res.json({ success: true });
 });
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-})
+  console.log(`Example app listening on port ${port}`);
+});
