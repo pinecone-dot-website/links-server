@@ -5,6 +5,14 @@
   "repository": "git@github.com:pinecone-dot-website/links-server.git",
   "author": "Eric Eaglstun <postpostmodern@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.4"
+  },
   "dependencies": {
     "express": "^4.18.2"
   }
